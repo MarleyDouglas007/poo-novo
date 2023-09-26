@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    margin: 25px;
+    background-color: rgba(139, 181, 187, 0.616);
+    color: aliceblue;
+    flex-direction: column;
+   
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: solid 2px;
+    border-radius: 8px;
+    width: 200px;
+    height: 250px;
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #7ca5c748 ;
+
+}
+
+.card:hover{
+
+    box-shadow: 4px 4px 10px rgb(2, 12, 56);
+    transform: scale(1.1);
+    transition: ease-in-out 250ms;
+    filter: opacity(1);
+
+}
+
+.foto{
+    width: 170px;
+    height: 130px;
+    margin: 15px;
+    /* object-fit:; */
+    border: solid;
+    border-radius: 5px;
+}
+
+.descricao{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-decoration:underline 2px rgba(65, 30, 50, 0.384);
+    margin: 15px;
+    text-align: center;
+}
+
+.unidadedeMedida{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:underline 2px rgba(65, 30, 50, 0.384);
+    color: rgb(35, 48, 107);
+}
+
+.precoUnitario{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:underline 2px rgba(65, 30, 50, 0.384);
+    color: rgb(35, 48, 107);
+}
